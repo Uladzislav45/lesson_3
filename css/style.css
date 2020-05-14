@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logic {
+    display: inline-block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.btn-don {
+    cursor: pointer;
+    background: none;
+    width: 135px;
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 57px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.main-title {
+    margin-top: 107px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.main-title hr {
+    width: 67px;
+    height: 2px;
+    border: none;
+    background: #FF8D2D;
+    margin: auto;
+}
+
+.m-title {
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #8F9094;
+    margin-top: 30px;
+}
+
+.icon {
+    position: relative;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #FF8D2D;
+    margin: 0 auto;
+}
+
+.icon-img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.icon-light {
+    background-image: url("../img/light.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 24px;
+}
+
+.icon-keyboard {
+    background-image: url("../img/keyboard.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 39px;
+}
+
+.icon-lightning {
+    background-image: url("../img/lightning.png");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 20px;
+}
+
+.block {
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 102px;
+}
+
+.block:nth-child(2) {
+    margin: 0 41px;
+}
+
+.block_text {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 29px;
+}
+/* Customs */
+.customs {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/customs.png") no-repeat;
+    text-align: center;
+}
+
+.customs h1 {
+    color: #FFFFFF;
+    padding-top: 76px;
+}
+
+.custom-text {
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 32px;
+}
+
+.line {
+    border: 1px solid #FFFFFF;
+    width: 74px;
+    margin: 26px auto;
+}
+
+/* Custom Section End */
+
+
+/* Footer */
+.social {
+    background-color: #000000;
+}
+
+.social__text {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+.social a img {
+    width: 30px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.social ul {
+    padding: 39px 0 16px 0;
+    width: 317px;
+    margin: 0 auto;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* Footer End */
